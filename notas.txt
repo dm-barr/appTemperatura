@@ -1,0 +1,9 @@
+si v < 75 se usa:
+B = 2E-08v^6 - 4E-06v^5 + 0.0004v^4 - 0.0177v^3 + 0.3935v^2 + 0.2896v + 22.465
+SUS = tv + B
+
+si v >= 75 y t=210 se usa:
+SUS = 4.664 v
+
+si v >= 75 y t=100 se usa:
+SUS = 4.632v
